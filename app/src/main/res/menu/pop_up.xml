@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="Listen Surah"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item2"
+        android:title="Open Bookmark"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Mushaf Mode"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:title="Only Translation"
+        app:showAsAction="never">
+
+    </item>
+
+
+
+</menu>

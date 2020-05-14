@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listview_with_fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="2dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_action_button_fab_with_listview"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="0dp"
+        android:clickable="true"
+
+        android:src="@drawable/book1"
+        app:elevation="10dp"
+        app:fabSize="auto"
+        app:maxImageSize="50dp" />
+</RelativeLayout>

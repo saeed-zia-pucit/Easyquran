@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Easyquran</string>
+    <string name="title_activity_sura_intro">sura_intro</string>
+    <string name="title_activity_test">test</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_easy_quran">EasyQuran</string>
+    <string name="about_us">EasyQuran is a solution base it company which was establish in 2017The core objective is to make Quran Easy for humankind It is the worlds  first Quran app with unique featuresThis project is approved by well known scholars and institutes of pakistan Email easyquran gmilcom</string>
+</resources>
